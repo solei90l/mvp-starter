@@ -1,0 +1,154 @@
+body {
+  font-family: sans-serif;
+}
+
+span{
+  font-size: 17px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#products_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_view {
+  width: 220px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: space-between;
+}
+
+.product_view button,
+.form_button button {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 13px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.product_view button:hover,
+.form_button button:hover  {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.product_view button:focus,
+.form_button button:hover,
+span button:focus  {
+  outline: none;
+}
+
+span button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+span button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+
+.details {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  place-content: space-between;
+}
+
+.my_product_view {
+  width: 50%;
+}
+
+.flex_div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form_view {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px;
+}
+
+.form_item {
+  margin: 20px 0px;
+}
+
+.form_button {
+  width: 100%;
+}
+
+.form_button button {
+  padding: 30px auto;
+  width: 100%;
+  font-size: 22px;
+}
+
+.form_item input{
+  float: right;
+}
+
+#header button{
+  padding: 15px 30px;
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#header button:focus{
+  outline: none
+}
+
+#header button:hover{
+  color: darkgray;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main_container {
+  padding: 20px;
+}
+
+.order_elem {
+  border: 1px solid lightgray;
+  margin: 20px 0px;
+  padding: 20px 40px;
+}
+
+#header img {
+  width: 199px;
+  height: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
