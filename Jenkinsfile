@@ -8,6 +8,7 @@ pipeline {
                 script {
                     echo "Building the application..."
                     sh 'npm install'
+                    sh 'npm audit fix'
                 }
             }
         }
